@@ -4,9 +4,143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Daliy Planner</title>
 </head>
 <body>
+    <header class = "bg-secondary sticky-top d-flex flex-column p-4 p-lg-3 text-center text-light
+     align-items-center">
+        <div class="title mb-3 display-3">
+            <i class="fas fa-tasks mr-2"></i>
+            <span class = "d-lg-none">Daily Planner</span>
+        </div>
+        <div class="date fs-5">
+            
+            <input class = "border-0 p-2" 
+            type="text" placeholder="mm/dd/yyyy" id = "Date" autocomplete="off">
+            <button class="btn btn-dark mt-3 col-6" id="submit-btn">Check My Plans</button>
+        </div>
+    </header>
+
+    <main >
+        <p class="motivation">Setting goals is the first step in turning the invisible into the visible.</p>
+        <table class = "table">
+            <thead>
+                <tr class = "table-header">
+                    <th class = "col-1">Time</th>
+                    <th class = "col-10 text-center">Tasks</th>
+                    <th class = "col-1"></th>
+                </tr>
+            </thead>
+            <tbody class = "table-body">
+                <tr>
+                    <th class = "time">8AM</th>
+                    <td class = "task-info">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod earum iste maiores rerum, quas nobis quis incidunt tempora obcaecati at! Incidunt, debitis? Consequatur obcaecati inventore, suscipit error quasi cum autem!</p>
+                    </td>
+                    <td>
+                        <button class = "btn save-btn">Save!</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th class = "time">9AM</th>
+                    <td class = "task-info">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod earum iste maiores rerum, quas nobis quis incidunt tempora obcaecati at! Incidunt, debitis? Consequatur obcaecati inventore, suscipit error quasi cum autem!</p>
+                    </td>
+                    <td>
+                        <button class = "btn save-btn">Save!</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th class = "time">10AM</th>
+                    <td class = "task-info">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod earum iste maiores rerum, quas nobis quis incidunt tempora obcaecati at! Incidunt, debitis? Consequatur obcaecati inventore, suscipit error quasi cum autem!</p>
+                    </td>
+                    <td>
+                        <button class = "btn save-btn">Save!</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th class = "time">11AM</th>
+                    <td class = "task-info">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod earum iste maiores rerum, quas nobis quis incidunt tempora obcaecati at! Incidunt, debitis? Consequatur obcaecati inventore, suscipit error quasi cum autem!</p>
+                    </td>
+                    <td>
+                        <button class = "btn save-btn">Save!</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th class = "time">12PM</th>
+                    <td class = "task-info">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod earum iste maiores rerum, quas nobis quis incidunt tempora obcaecati at! Incidunt, debitis? Consequatur obcaecati inventore, suscipit error quasi cum autem!</p>
+                    </td>
+                    <td>
+                        <button class = "btn save-btn">Save!</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th class = "time">1PM</th>
+                    <td class = "task-info">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod earum iste maiores rerum, quas nobis quis incidunt tempora obcaecati at! Incidunt, debitis? Consequatur obcaecati inventore, suscipit error quasi cum autem!</p>
+                    </td>
+                    <td>
+                        <button class = "btn save-btn">Save!</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th class = "time">2PM</th>
+                    <td class = "task-info">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod earum iste maiores rerum, quas nobis quis incidunt tempora obcaecati at! Incidunt, debitis? Consequatur obcaecati inventore, suscipit error quasi cum autem!</p>
+                    </td>
+                    <td>
+                        <button class = "btn save-btn">Save!</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th class = "time">3PM</th>
+                    <td class = "task-info">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod earum iste maiores rerum, quas nobis quis incidunt tempora obcaecati at! Incidunt, debitis? Consequatur obcaecati inventore, suscipit error quasi cum autem!</p>
+                    </td>
+                    <td>
+                        <button class = "btn save-btn">Save!</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th class = "time">4PM</th>
+                    <td class = "task-info">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod earum iste maiores rerum, quas nobis quis incidunt tempora obcaecati at! Incidunt, debitis? Consequatur obcaecati inventore, suscipit error quasi cum autem!</p>
+                    </td>
+                    <td>
+                        <button class = "btn save-btn">Save!</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th class = "time">5PM</th>
+                    <td class = "task-info">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod earum iste maiores rerum, quas nobis quis incidunt tempora obcaecati at! Incidunt, debitis? Consequatur obcaecati inventore, suscipit error quasi cum autem!</p>
+                    </td>
+                    <td>
+                        <button class = "btn save-btn">Save!</button>
+                    </td>
+                </tr>
+                
+                
+            </tbody>
+
+        </table>
+    </main>
+
     
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/home.js"></script>
 </body>
 </html>

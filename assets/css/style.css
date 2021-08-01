@@ -1,0 +1,31 @@
+header {
+    font-family: 'Ubuntu', sans-serif;
+    border-bottom: 0.5rem solid #696969;
+}
+.motivation {
+    margin: 1.5rem auto;
+    font-family: 'Gowun Batang', serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.table-header{
+    font-size: 2rem;
+    font-family: 'Gowun Batang', serif;
+}
+tbody {
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+}
+
+.save-btn{
+    background: rgb(52, 218, 52);
+    border-radius: 5rem;
+    padding: 1rem;
+}
+
+.task-info {
+    border: 0.1rem solid #6c757d;
+}
+
